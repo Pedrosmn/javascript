@@ -16,11 +16,33 @@ header {
 }
 
 section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: white;
+    height: 220px;
     width: 500px;
     padding: 10px;
     border-radius: 15px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+p.input-but {
+    text-align: center;
+}
+
+#botao {
+    width: 400px;
+    height: 30px;
+    background-color: rgb(111, 111, 241);
+    border: none;
+    color: white;
+}
+
+#botao:hover{
+    background-color: rgb(64, 64, 240);
+    cursor: pointer;
 }
 
 footer {

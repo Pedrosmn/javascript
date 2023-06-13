@@ -16,6 +16,7 @@ function verificar() {
         else {
             genero = 'Mulher'
         }
+        res.style.textAlign = 'Center'
         res.innerHTML = `Detectamos: ${genero} com ${idade} anos`
     }
 }

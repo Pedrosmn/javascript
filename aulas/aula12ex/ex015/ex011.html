@@ -13,18 +13,18 @@
     </header>
     <section>
         <div>
-            <p>
+            <p class="input-ano">
                 <label for="ano">Ano de Nascimento</label>
                 <input type="number" name="ano" id="ano" min="0">
             </p>
-            <p>
+            <p class="input-sex">
                 Sexo: <input type="radio" name="sex" id="mas" checked>
                 <label for="mas">Masculino</label>
                 <input type="radio" name="sex" id="fem">
                 <label for="fem">Feminino</label>
             </p>
-            <p>
-                <input type="button" value="Enviar" onclick="verificar()">
+            <p class="input-but">
+                <input type="button" value="Enviar" id="botao" onclick="verificar()">
             </p>
         </div>
         <div id="res">
